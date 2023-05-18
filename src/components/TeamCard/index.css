@@ -1,0 +1,33 @@
+/* Write your CSS here */
+*{
+    text-decoration: none;
+    font-family: bree serif;
+}
+.card-item{
+  border: 1px solid white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 14px;
+    margin: 8px;
+    text-decoration: none;
+    justify-content: space-between;
+   height: 110px;
+width: 210px;
+background-color:#475569;
+}
+.card-image{
+    width: 60px;
+    margin-right: 13px;
+}
+.team-name{
+    color: white;
+    font-size: 18px;
+   width: 70%;
+margin-top: 0px;
+}
+@media screen and (min-width:768px){
+    .card-item{
+        width: 250px;
+    }
+}

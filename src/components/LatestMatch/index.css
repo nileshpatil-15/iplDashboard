@@ -1,0 +1,60 @@
+/* Write your CSS here */
+*{
+    font-family: bree serif;
+}
+
+.latest-match-container{
+   display: flex;
+ 
+   background-color: #0f172a;
+    flex-direction: column;
+    border-radius: 14px;
+}
+.latest-match-left-container{
+    display: flex;
+    align-items: center;
+   padding: 15px;    
+   justify-content: space-between;
+}
+.latest-match-right-container{
+    text-align: left;
+    padding: 15px;
+}
+.team-name{
+    font-size: 22px;
+}
+.team-logo{
+    width: 150px;
+    height: 150px;
+}
+.title{
+    font-size: 20px;
+    margin-left: 0px;
+}
+.answer{
+    font-size: 14px;
+   text-decoration: underline;
+}
+.line{
+    border: 0;
+height: 2px;
+background: #333;
+background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+@media screen and (min-width:768px){
+    .latest-match-container{
+flex-direction: row;
+justify-content:space-between    }
+.latest-match-left-container{
+    justify-content: space-between;
+    width: 60%;
+}
+.team-logo{
+    height: 200px;
+    width: 200px;
+}
+
+}

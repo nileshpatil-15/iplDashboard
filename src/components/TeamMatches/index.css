@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.team-match-container{
+
+padding:30px ;
+min-height: 100vh;
+display: flex;
+width: 100%;
+
+justify-content: center;
+align-items: center;
+}
+
+.teamBanner{
+    width: 100%;
+    object-fit: cover;
+}
+
+.KXP{
+    background-color: red;
+}
+.RCB{
+    background-color: #a4261d;
+ 
+}
+.KKR{
+    background-color: #13418b;
+}
+.CSK{
+    background-color: #FFD141;
+}
+.RR{
+    background-color: #254AA5;
+}
+.SH{
+    background-color: #EE7429;
+}
+.MI{
+    background-color: #004B8D;
+}
+.DC{
+    background-color: #2561AE;
+}
+
+.match-card-container{
+    padding-left: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.inner-teammatch-container{
+    width: 500px;
+}
+@media screen and (min-width:768px){
+    .inner-teammatch-container{
+width: 1000px;    
+justify-content: none;    
+    }
+}

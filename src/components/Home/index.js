@@ -31,25 +31,24 @@ export default class Home extends Component {
         )
     }
 
-    renderHomePage = () => {
-        const { cardDetails } = this.state
+    renderHomePage = () => 
+      
+         (
 
-        return (
-
-            <div className='home-container'>
+            <div >
                 <div className='logoAndTitlecntr'>
                     <img className='logo' src='https://assets.ccbp.in/frontend/react-js/ipl-logo-img.png' alt='ipl logo' />
-                    <h1 className='title'>Ipl Dashboard</h1>
+                    <p className='title'>Ipl Dashboard</p>
                 </div>
                 <ul className='team-card-container'>
 
                     {this.renderEachCard()}
                 </ul>
 
-            </div>
+           </div>
         )
 
-    }
+    
 
     cardInfo = async () => {
 

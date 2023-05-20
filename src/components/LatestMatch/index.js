@@ -4,7 +4,7 @@ import './index.css'
 
 const LatestMatch = (props) => {
     const { data } = props
-    const { competingTeam, competingTeamLogo, date, firstInnings, manOfTheMatch, matchStatus, result, secondInnings, umpires, venue } = data
+    const { competingTeam, competingTeamLogo, date, firstInnings, manOfTheMatch, result, secondInnings, umpires, venue } = data
     return (
         <div className='latest-match-container'>
             <div className='latest-match-left-container'>

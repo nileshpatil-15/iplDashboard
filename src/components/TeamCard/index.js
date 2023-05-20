@@ -8,14 +8,21 @@ const TeamCard = props => {
     const { id, teamImageUrl, name } = data
     
     return (
-        <Link to={`/team-matches/${id}`}>
+      
+       
             <li className='card-item'>
+  <Link to={`/team-matches/${id}`} className='link'>         
                 <img className='card-image' src={teamImageUrl} alt={name} />
                 <p className='team-name'>{name}</p>
+                </Link>
             </li>
-        </Link>
+           
+     
     )
 }
+
+
+ 
 
 
 export default TeamCard

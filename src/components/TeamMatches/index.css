@@ -1,7 +1,7 @@
 /* Write your CSS here */
 .team-match-container{
+padding-top: 48px;
 
-padding:30px ;
 min-height: 100vh;
 display: flex;
 width: 100%;
@@ -16,10 +16,10 @@ align-items: center;
 }
 
 .KXP{
-    background-color: red;
+    background-image:linear-gradient(to top,black,red)
 }
 .RCB{
-    background-color: #a4261d;
+    background-image: linear-gradient(to right,white,skyblue)
  
 }
 .KKR{
@@ -29,16 +29,16 @@ align-items: center;
     background-color: #FFD141;
 }
 .RR{
-    background-color: #254AA5;
+    background-color: rgb(4, 47, 155);
 }
 .SH{
-    background-color: #EE7429;
+    background-image:linear-gradient(to right,black,orange)
 }
 .MI{
-    background-color: #004B8D;
+    background-image: linear-gradient(to right,rgb(5, 82, 112),white)
 }
 .DC{
-    background-color: #2561AE;
+    background-image:linear-gradient(to right,blue,white);
 }
 
 .match-card-container{
@@ -49,11 +49,15 @@ align-items: center;
     flex-wrap: wrap;
 }
 .inner-teammatch-container{
-    width: 500px;
+    width: 90%;
+    max-width: 500px;
 }
 @media screen and (min-width:768px){
-    .inner-teammatch-container{
+    /* .inner-teammatch-container{
 width: 1000px;    
 justify-content: none;    
+    } */
+    .inner-teammatch-container{
+        max-width: 1100px;
     }
 }
